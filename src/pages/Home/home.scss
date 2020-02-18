@@ -1,0 +1,11 @@
+@import '../../styles/colors.scss';
+@import "../../styles/fontSizes.scss";
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  
+}

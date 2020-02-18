@@ -1,0 +1,46 @@
+@import "./styles/colors.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: $black;
+  margin: 0;
+  background: $blue-light;
+}
+
+.dark-mode {
+  background: #051434;
+  color: #ffffff;
+}
+
+.bigger-font {
+  font-size: 125%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button, a {
+  &:focus {
+    outline: 2px solid $blue;
+    transform: scale(0.9);
+    transition: outline 0.2s ease-in, transform 0.2s ease-in;
+  }
+}
+
+//To be removed
+
+.App {
+  box-sizing: border-box;
+  padding-bottom: 48px;
+}
+
